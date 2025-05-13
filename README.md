@@ -1,23 +1,10 @@
-<img width="30%" src="./docs/img/logo.png" align="left" alt="logo"/>
-<img width="65%" src="./docs/img/banner.svg" alt="React Auth Kit Banner" />
-
 <p align="center">
-    <img height="50px" src="./docs/img/nextdotjs.svg" alt="Next Js">
-    <img height="50px" src="./docs/img/reactquery.svg" alt="React Query">
-    <img height="50px" src="./docs/img/remix.svg" alt="Remix">
-    <img height="50px" src="./docs/img/react.svg" alt="React Js">
-    <img height="50px" src="./docs/img/reactrouter.svg" alt="React Router">
+    <img src="https://raw.githubusercontent.com/react-auth-kit/react-auth-kit/master/docs/img/banner.svg" alt="React Auth Kit Banner"/>
 </p>
 
 <p align="center">
-    <em>🔑 Authentication Library for React JS for Token Based Auth with Json Web Token(JWT) 🔑</em>
+    <em>🔑 Authentication Library for React Js for Token-Based Auth with JSON Web Token(JWT) 🔑</em>
 </p>
-
-<h2 align="center">
-<a href="https://authkit.arkadip.dev">
-    https://authkit.arkadip.dev 🚀
-</a>
-</h2>
 
 <p align="center">
   
@@ -30,9 +17,21 @@
 <a href="https://bundlephobia.com/result?p=react-auth-kit">
     <img src="https://img.shields.io/bundlephobia/minzip/react-auth-kit?style=flat-square" alt="Test Suites">
 </a>
+<a href="https://snyk.io/advisor/npm-package/react-auth-kit">
+    <img src="https://img.shields.io/snyk/vulnerabilities/npm/react-auth-kit?logo=snyk&style=flat-square" alt="Snyk">
+</a>
 </p>
 
+
 ---
+
+
+<h2 align="center">
+<a href="https://authkit.arkadip.dev">
+    https://authkit.arkadip.dev 🚀
+</a>
+</h2>
+
 
 # Introduction
 
@@ -42,29 +41,24 @@ authentication very easy
 It is production-ready, and gives you the following:
 
 * 📦 Very lightweight
+* 🌲 Tree Stacking 
 * 🔧 Easy to use
-* ⚛️ Built for React JS
-* ⚡ Works with Gastsby, Next JS
+* ⚛️ Build for React JS
+* ⚡ Works with Next JS
 * 🚀 Fast and easy to Implement
-* 🛡️ Supports Json Web Token (JWT)
+* 🛡️ Supports JSON Web Token (JWT)
 * 🔒 Secure Client Side Authentication
 * ⌨️ Highly typed and written in `TypeScript`
 
-## Stargazers ⭐
+## Documentation
 
-[![Stargazers over time](https://starchart.cc/react-auth-kit/react-auth-kit.svg?variant=adaptive)](https://starchart.cc/react-auth-kit/react-auth-kit)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Freact-auth-kit%2Freact-auth-kit.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Freact-auth-kit%2Freact-auth-kit?ref=badge_shield)
+[https://authkit.arkadip.dev](https://authkit.arkadip.dev).
 
+## Hall of Fames
 
-## Hall of Fames ✨
-
-We love our contributors! If you'd like to contribute anything from a bug-fix to a feature update, you can read our [CONTRIBUTING GUIDE](https://github.com/react-auth-kit/react-auth-kit/blob/master/CONTRIBUTING.md)
+We love our contributors! If you'd like to contribute anything from a bug fix to a feature update, you can read our [CONTRIBUTING GUIDE](https://github.com/react-auth-kit/react-auth-kit/blob/master/CONTRIBUTING.md)
 
 [![Contributors](https://contrib.rocks/image?repo=react-auth-kit/react-auth-kit)](https://github.com/react-auth-kit/react-auth-kit/graphs/contributors)
 
 <p align="center">&mdash; 🔑  &mdash;</p>
 <p align="center"><i>React Auth Kit is <a href="https://github.com/react-auth-kit/react-auth-kit/blob/master/LICENSE">MIT License</a> code</i></p>
-
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Freact-auth-kit%2Freact-auth-kit.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Freact-auth-kit%2Freact-auth-kit?ref=badge_large)
