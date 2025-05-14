@@ -1,0 +1,11 @@
+node_modules
+dist
+types
+/env/
+coverage
+.eslintcache
+
+# Generated files
+.docusaurus
+.cache-loader
+.nx

@@ -1,17 +1,29 @@
 {
-    "extends": "../../tsconfig.base.json",
-    "include": [
-        "src/**/*.ts",
-        "src/**/*.tsx"
-    ],
-    "compilerOptions": {
-        "outDir": "./dist",
-        "emitDeclarationOnly": true
-    },
-    "exclude": [
-        "node_modules",
-        "dist",
-        "types",
-        "*/__tests__/*"
-    ]
+  "compilerOptions": {
+    "target": "es2019",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "Node16",
+    "outDir": "./dist",
+    "emitDeclarationOnly": true,
+    "lib": ["dom", "ES6", "ES2021.String"],
+    "moduleResolution": "node16",
+    "jsx": "react-jsx",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false
+  },
+  "exclude": ["node_modules", "dist", "types", "__tests__"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }
