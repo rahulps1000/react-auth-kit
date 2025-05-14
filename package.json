@@ -26,6 +26,7 @@
     "hooks",
     "utils",
     "dist",
+    "src",
     "*.js",
     "*.d.ts"
   ],
@@ -46,7 +47,8 @@
   },
   "scripts": {
     "build": "rimraf ./dist && mkdirp ./dist && tsc --project tsconfig.json && babel src --out-dir ./dist --extensions \".tsx,.ts,.js,.jsx\"",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "prepare": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/react-auth-kit/react-auth-kit/issues"
